@@ -243,7 +243,7 @@
                         <subviews>
                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0x-as-Soi">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.015191159212814817" green="0.10180013773026199" blue="0.13137981818062361" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.12549019607843137" green="0.13333333333333333" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="hidden" value="NO"/>
                                 </userDefinedRuntimeAttributes>
@@ -325,35 +325,23 @@
                                 <rect key="frame" x="0.0" y="300" width="375" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPg-xb-svg" customClass="RoundButton" customModule="Event_Profile" customModuleProvider="target">
-                                        <rect key="frame" x="15" y="12" width="302" height="35"/>
+                                        <rect key="frame" x="15" y="12" width="345" height="35"/>
                                         <color key="backgroundColor" red="0.0" green="0.74509803919999995" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="6Ad-AP-MqK"/>
+                                            <constraint firstAttribute="height" constant="35" id="JiE-6O-lIG"/>
                                         </constraints>
                                         <state key="normal" title="I am going">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="piW-7f-bAH" customClass="RoundButton" customModule="Event_Profile" customModuleProvider="target">
-                                        <rect key="frame" x="325" y="12" width="35" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="NlG-WX-I1S"/>
-                                            <constraint firstAttribute="width" constant="35" id="VET-Nx-GTk"/>
-                                        </constraints>
-                                        <state key="normal" title="S">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.1333333333" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="piW-7f-bAH" secondAttribute="trailing" constant="15" id="1wV-zx-t4h"/>
-                                    <constraint firstAttribute="centerY" secondItem="cPg-xb-svg" secondAttribute="centerY" id="5LA-0B-CrC"/>
+                                    <constraint firstAttribute="centerY" secondItem="cPg-xb-svg" secondAttribute="centerY" id="3BO-jJ-9MM"/>
+                                    <constraint firstAttribute="trailing" secondItem="cPg-xb-svg" secondAttribute="trailing" constant="15" id="FFD-Uq-JMc"/>
                                     <constraint firstAttribute="height" constant="60" id="PAP-q2-ThF"/>
-                                    <constraint firstItem="cPg-xb-svg" firstAttribute="leading" secondItem="Qht-5t-wc8" secondAttribute="leading" constant="15" id="TAv-jK-71K"/>
-                                    <constraint firstItem="piW-7f-bAH" firstAttribute="leading" secondItem="cPg-xb-svg" secondAttribute="trailing" constant="8" id="Y2V-0C-wgI"/>
-                                    <constraint firstItem="piW-7f-bAH" firstAttribute="top" secondItem="Qht-5t-wc8" secondAttribute="top" constant="12" id="teT-dh-chl"/>
+                                    <constraint firstItem="cPg-xb-svg" firstAttribute="leading" secondItem="Qht-5t-wc8" secondAttribute="leading" constant="15" id="ZSH-3F-ZlN"/>
                                 </constraints>
                             </view>
                         </subviews>
