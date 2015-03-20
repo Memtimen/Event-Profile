@@ -15,7 +15,7 @@ class EventProfileView: UIViewController,tableViewDidScroll {
         super.viewDidLoad()
         var TC = self.childViewControllers[0] as? EventProfileTableView
         TC?.tableViewDidScrollDelegate = self
-        TC?.tableView.contentOffset.y = -CGRectGetWidth(self.view.frame)*0.8
+        TC?.tableView.contentOffset.y = -CGRectGetWidth(self.view.frame)*0.6
         self.navigationController?.setNavigationBarHidden(true, animated: true)
         self.navigationController?.interactivePopGestureRecognizer
     }

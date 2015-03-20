@@ -17,7 +17,7 @@ class EventProfileTableView: UITableViewController {
     var isFirstTime = true
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.contentInset = UIEdgeInsetsMake(CGRectGetWidth(self.tableView.frame)*0.8, 0, 0, 0)
+        self.tableView.contentInset = UIEdgeInsetsMake(CGRectGetWidth(self.tableView.frame)*0.6, 0, 0, 0)
     }
     
     override func scrollViewDidScroll(scrollView: UIScrollView) {
